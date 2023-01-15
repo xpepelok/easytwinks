@@ -1,7 +1,7 @@
-package dev.xpepelok;
+package dev.xpepelok.easytwinks;
 
-import dev.xpepelok.utils.CreatingFiles;
-import dev.xpepelok.utils.Menu;
+import dev.xpepelok.easytwinks.utils.Menu;
+import dev.xpepelok.easytwinks.utils.CreatingFiles;
 
 import java.io.IOException;
 

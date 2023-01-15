@@ -1,23 +1,24 @@
-package dev.xpepelok.utils;
+package dev.xpepelok.easytwinks.utils;
 
 import java.io.File;
 import java.util.ArrayList;
 
 public class Menu {
     public static void startMenu() {
-        while (true) {
-            ArrayList<String> commands = new ArrayList<>();
-            commands.add("importToken <nickname> - Если желаете импортировать токен.");
-            commands.add("exportToken <nickname> - Если желаете экспортировать токен.");
-            commands.add("importOptions <nickname> - Если желаете импортировать конфиги ваших настроек.");
-            commands.add("exportOptions <nickname> - Если желаете экспортировать конфиги ваших настроек.");
-            commands.add("importTokenWithLaunch <nickname> - Если желаете импортировать токен с запуском лаунчера.");
-            commands.add("importOptionsWithLaunch <nickname> - Если желаете импортировать конфиги ваших настроек с запуском лаунчера.");
-            commands.add("customlaunch <tokenNickname> <optionsNickname> - Профильный запуск лаунчера.");
-            commands.add("startLauncher - Запуск лаунчера");
-            commands.add("deleteToken - Если желаете удалить токен с корневой папки лаунчера.");
-            commands.add("deleteOptions - Если желаете удалить конфиги ваших настроек.\n");
 
+        ArrayList<String> commands = new ArrayList<>();
+        commands.add("importToken <nickname> - Если желаете импортировать токен.");
+        commands.add("exportToken <nickname> - Если желаете экспортировать токен.");
+        commands.add("importOptions <nickname> - Если желаете импортировать конфиги ваших настроек.");
+        commands.add("exportOptions <nickname> - Если желаете экспортировать конфиги ваших настроек.");
+        commands.add("importTokenWithLaunch <nickname> - Если желаете импортировать токен с запуском лаунчера.");
+        commands.add("importOptionsWithLaunch <nickname> - Если желаете импортировать конфиги ваших настроек с запуском лаунчера.");
+        commands.add("customlaunch <tokenNickname> <optionsNickname> - Профильный запуск лаунчера.");
+        commands.add("startLauncher - Запуск лаунчера");
+        commands.add("deleteToken - Если желаете удалить токен с корневой папки лаунчера.");
+        commands.add("deleteOptions - Если желаете удалить конфиги ваших настроек.\n");
+
+        while (true) {
             System.out.println("\nНеобходимо выбрать тип операции, введите:");
             for (String cm : commands) {
                 System.out.println(cm);

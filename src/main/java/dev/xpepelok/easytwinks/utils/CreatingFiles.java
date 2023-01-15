@@ -1,4 +1,4 @@
-package dev.xpepelok.utils;
+package dev.xpepelok.easytwinks.utils;
 
 import java.io.File;
 import java.io.IOException;
